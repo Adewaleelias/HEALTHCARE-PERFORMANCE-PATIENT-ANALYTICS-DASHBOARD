@@ -1,4 +1,4 @@
-📌 #Project Overview
+# 📌 Project Overview
 The IFEXA Healthcare Analytics Dashboard is a Power BI business intelligence project that provides a consolidated view of healthcare operations, patient characteristics, financial performance, and patient experience.
 The completed report contains five major analytical areas:
 1.	Executive Overview
@@ -7,7 +7,7 @@ The completed report contains five major analytical areas:
 4.	Financial Performance
 5.	Patient Experience
 The report also includes interactive filtering, Drill-through analysis, and a detailed department or branch view.
-🎯 Project Objectives
+# 🎯 Project Objectives
 The dashboard was developed to:
 •	Monitor overall healthcare performance.
 •	Understand patient demographics and healthcare utilization.
@@ -18,8 +18,8 @@ The dashboard was developed to:
 •	Compare performance across states and branches.
 •	Identify operational and financial areas requiring further investigation.
 
-**📊 Dashboard Pages**
-**1. 🏠 Executive Overview**
+# **📊 Dashboard Pages**
+## **1. 🏠 Executive Overview**
 Provides a high-level summary of healthcare and financial performance.
 KPI	Result
 Total Revenue	$47.84M
@@ -32,7 +32,7 @@ Total Cost	$29.50M
 Total Profit	$18.35M
 The report records approximately 2,920 visits from 1,000 patients, generating $47.84M in revenue and $18.35M in profit. 
 
-**2. 👥 Patient Analysis**
+## **2. 👥 Patient Analysis**
 This page analyses patient characteristics, distribution, and utilization patterns.
 Analysis areas:
 •	Patients by Age Group
@@ -50,7 +50,7 @@ Key findings:
 •	Patient outcomes include Recovered, Follow-up, Admitted, and Referred.
 •	649 patients are recorded as recovered. 
 
-**3. 🏥 Hospital Operations**
+## **3. 🏥 Hospital Operations**
 This page evaluates operational efficiency and service delivery.
 Analysis areas:
 •	Visits by Department
@@ -66,7 +66,7 @@ Key findings:
 •	Branch-level performance is compared across patient activity, cost, profit, revenue, and waiting time.
 •	August is identified as the highest-volume month.
 
-**4. 💰 Financial Performance**
+## **4. 💰 Financial Performance**
 This page examines how patient activity translates into financial performance.
 Analysis areas:
 •	Revenue by Service
@@ -95,7 +95,7 @@ Key findings:
 •	There is a substantial gap between revenue target and actual revenue.
 •	Pharmacy performance is identified as an area requiring further financial investigation. 
 
-**5. ❤️ Patient Experience**
+## **5. ❤️ Patient Experience**
 This page evaluates patient experience using satisfaction, waiting time, outcomes, and service-location comparisons.
 Analysis areas:
 •	Average Satisfaction Score
@@ -117,7 +117,7 @@ Key findings:
 •	The report indicates that shorter waiting time does not necessarily correspond to higher satisfaction across the branches and departments reviewed.
 •	Satisfaction score 5 has the highest number of patients in the reported distribution. 
 
-**🔍 Executive Insights**
+# **🔍 Executive Insights**
 🌍 Geographic Performance
 Rivers leads in revenue generation and records the highest patient activity among the states shown.
 🏥 Department Performance
@@ -129,7 +129,7 @@ Overall satisfaction stands at 3.71, while 54.1% of patients are classified as h
 ⏱️ Operational Efficiency
 Overall average waiting time is 45.27, with differences across departments and branches. 
 
-**🛠️ Tools & Technologies**
+# **🛠️ Tools & Technologies**
 •	Microsoft Power BI
 •	DAX
 •	Microsoft Excel
@@ -140,7 +140,7 @@ Overall average waiting time is 45.27, with differences across departments and b
 •	Drill-through Analysis
 •	Report Page Tooltips
 
-**🔄 Interactive Features**
+# **🔄 Interactive Features**
 The report incorporates:
 •	Page navigation
 •	Slicers for Date, State, Branch, Department, and Gender
@@ -149,8 +149,9 @@ The report incorporates:
 •	Report-page tooltips
 •	Dynamic KPI cards
 •	Cross-filtering between visuals
-The report includes a Department Details Drill-through page with metrics such as total patients, visits, waiting time, satisfaction, monthly visits, outcomes, revenue, and positive outcome percentage. 
-**📐 Example DAX Measures**
+The report includes a Department Details Drill-through page with metrics such as total patients, visits, waiting time, satisfaction, monthly visits, outcomes, revenue, and positive outcome percentage.
+
+# **📐 Example DAX Measures**
 Total Patients =
 DISTINCTCOUNT(Patient_Visits[Patient_ID])
 Total Revenue =
@@ -168,7 +169,7 @@ AVERAGE(Patient_Visits[Satisfaction_Score])
 Positive Outcome % =
 DIVIDE([Positive Outcomes], [Total Patients], 0)
 
-📁 Suggested Repository Structure
+## 📁 Suggested Repository Structure
 IFEXA-Healthcare-BI/
 │
 ├── README.md
@@ -181,17 +182,17 @@ IFEXA-Healthcare-BI/
     ├── financial-performance.png
     └── patient-experience.png
 
-💡 **Business Value**
+## 💡 **Business Value**
 The dashboard connects:
 Patients → Services → Operations → Revenue → Outcomes → Experience
 It provides a unified decision-support environment for identifying high-performing areas, monitoring operational efficiency, evaluating patient experience, and recognizing financial performance gaps.
 
-👨‍💻 **Author**
+## 👨‍💻 **Author**
 Adewale Elijah Adejumo
 Healthcare | Microbiology | Data Analytics | Power BI
 Turning healthcare data into actionable insights through analytics, visualization, and evidence-based decision-making.
 
-⭐ **Project Takeaway**
+## ⭐ **Project Takeaway**
 The IFEXA Healthcare Analytics Dashboard demonstrates the practical application of Power BI, DAX, data modelling, KPI development, interactive visualization, Drill-through, and report-page tooltips to a healthcare business intelligence problem.
 The project moves beyond simply reporting numbers by connecting patient behaviour, operational efficiency, financial performance, and patient experience into a unified decision-support dashboard.
 
