@@ -1,0 +1,2 @@
+# HEALTHCARE-PERFORMANCE-PATIENT-ANALYTICS-DASHBOARD
+This project includes healthcare data containing information about patient visits, departments, diagnoses, revenue, costs, waiting time, satisfaction, and patient outcomes.  I have been able to transform the raw data into an interactive Power BI dashboard that helps management understand the organization's performance and make data-driven decisions
